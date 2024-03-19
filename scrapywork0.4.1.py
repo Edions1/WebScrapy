@@ -20,7 +20,7 @@ time.sleep(5)
 pyautogui.hotkey('ctrl', 'c')  # Copiar o texto selecionado
 time.sleep(3)
 
-# Adiciona o comando "Ctrl + Shift + T" seguido pelo comando "micro /home/arpnet/Modelos/Workana/pagina.html"
+# Adiciona o comando "Ctrl + Shift + T" seguido pelo comando "micro /home/sua/pasta destino/pagina.html"
 pyautogui.hotkey('ctrl', 'alt', 't')
 time.sleep(2)
 pyautogui.typewrite('sudo su')
